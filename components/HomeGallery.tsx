@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { getInstagramImages } from '@/lib/images';
 
 interface Photo {
   filename: string;
@@ -13,9 +14,7 @@ export default function HomeGallery() {
   const [allImages, setAllImages] = useState<Photo[]>([]);
   
   useEffect(() => {
-    fetch('/api/images')
-      .then(res => res.json())
-      .then(data => setAllImages(data));
+    setAllImages(getInstagramImages());
   }, []);
 
   return (
@@ -23,7 +22,7 @@ export default function HomeGallery() {
       <div className="max-w-[1400px] mx-auto px-6">
         <div className="mb-16">
           <span className="font-mono text-accent text-xs tracking-widest uppercase mb-4 block">Visual Diary</span>
-          <h2 className="font-serif text-5xl md:text-7xl">Experience <br /> <span className="italic">The Atmosphere.</span></h2>
+          <h2 className="font-serif text-5xl md:text-7xl text-white">Experience <br /> <span className="italic">The Atmosphere.</span></h2>
         </div>
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
           {allImages.slice(0, 6).map((image, i) => (

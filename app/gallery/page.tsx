@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import { getInstagramImages } from '@/lib/images';
 
 interface Photo {
   filename: string;
@@ -19,16 +20,9 @@ export default function GalleryPage() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/images')
-      .then(res => res.json())
-      .then(data => {
-        setImages(data);
-        setIsLoading(false);
-      })
-      .catch(err => {
-        console.error('Error fetching images:', err);
-        setIsLoading(false);
-      });
+    const data = getInstagramImages();
+    setImages(data);
+    setIsLoading(false);
   }, []);
 
   return (
@@ -37,7 +31,7 @@ export default function GalleryPage() {
       
       <section className="pt-48 pb-24 text-center">
         <span className="font-mono text-accent text-xs tracking-[0.4em] uppercase mb-6 block">Visual Journey</span>
-        <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl font-light mb-8">Through the Lens</h1>
+        <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl font-light mb-8 text-white">Through the Lens</h1>
         <div className="flex justify-center gap-8">
           <a 
             href="https://instagram.com/themazebistrombuya" 
