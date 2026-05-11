@@ -60,7 +60,7 @@ export default function Hero({ backgroundImage = '/images/placeholder-hero.jpg' 
           transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
           className="font-sans text-muted text-lg md:text-xl max-w-2xl mx-auto mb-12"
         >
-          Fine dining at Mbuya & Bugolobi Forest Mall
+          Fine dining at Mbuya & Lugogo Forest Mall
         </motion.p>
 
         <motion.div

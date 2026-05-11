@@ -75,7 +75,7 @@ export default function Home() {
             <span className="font-mono text-accent text-xs tracking-widest uppercase mb-4 block">Table for Two?</span>
             <h2 className="font-serif text-5xl mb-6 text-white">Plan Your Visit</h2>
             <p className="font-sans text-muted text-lg leading-relaxed mb-8">
-              Whether it's an intimate dinner, a business luncheon, or a celebratory gathering, our team ensures every detail is perfect. We recommend booking in advance to secure your preferred time at our Mbuya or Bugolobi locations.
+              Whether it's an intimate dinner, a business luncheon, or a celebratory gathering, our team ensures every detail is perfect. We recommend booking in advance to secure your preferred time at our Mbuya or Lugogo locations.
             </p>
             <a href="/reservations" className="inline-block px-10 py-4 bg-accent text-bg font-sans text-xs tracking-widest uppercase hover:bg-accent-dim transition-all">Make a Reservation</a>
           </div>
@@ -94,7 +94,7 @@ export default function Home() {
       <section className="py-32 bg-surface text-center">
         <div className="max-w-[1200px] mx-auto px-6">
           <span className="font-mono text-accent text-xs tracking-widest uppercase mb-8 block">Experience Us</span>
-          <h2 className="font-serif text-5xl md:text-7xl mb-12 text-white">Visit our branches in <br /><span className="italic">Mbuya & Bugolobi.</span></h2>
+          <h2 className="font-serif text-5xl md:text-7xl mb-12 text-white">Visit our branches in <br /><span className="italic">Mbuya & Lugogo.</span></h2>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <a href="/branches" className="px-12 py-4 border border-accent text-accent uppercase text-xs tracking-widest hover:bg-accent hover:text-bg transition-all">Explore Locations</a>
             <a href="/gallery" className="px-12 py-4 bg-accent text-bg uppercase text-xs tracking-widest hover:bg-accent-dim transition-all">View Our Gallery</a>

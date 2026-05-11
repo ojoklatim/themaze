@@ -7,19 +7,19 @@ import { getInstagramImages } from '@/lib/images';
 const branches = [
   {
     id: "mbuya",
-    name: "Mbuya Flagship",
+    name: "The Maze Bistro",
     address: "Mbuya Hill, Kampala",
     hours: "Mon–Sun, 11:00 AM – 11:00 PM",
     phone: "+256 700 000000",
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.043586074218!2d32.6186!3d0.3235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb8a7f7c8b0b%3A0x7d6a7a6a7a6a7a6a!2sMbuya%2C%20Kampala!5e0!3m2!1sen!2sug!4v1700000000000!5m2!1sen!2sug"
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7561666470697!2d32.63059787669271!3d0.3198122640170435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db9cf53b04123%3A0xe3f5cec879e80a78!2sThe%20Maze%20Bistro!5e0!3m2!1sen!2snl!4v1778517959212!5m2!1sen!2snl"
   },
   {
-    id: "bugolobi",
-    name: "Bugolobi Forest Mall",
-    address: "Forest Mall, Bugolobi, Kampala",
+    id: "lugogo",
+    name: "The Maze Restaurant & Lounge",
+    address: "Forest Mall, Lugogo, Kampala",
     hours: "Mon–Sun, 11:00 AM – 11:00 PM",
     phone: "+256 700 000001",
-    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.034586074218!2d32.6086!3d0.3135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb8a7f7c8b0b%3A0x7d6a7a6a7a6a7a6a!2sForest%20Mall%20Bugolobi!5e0!3m2!1sen!2sug!4v1700000000000!5m2!1sen!2sug"
+    map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7527005754346!2d32.603097476692604!3d0.32860866400349903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbbbef6ed5043%3A0xbbfbf4bf59ea64d0!2sThe%20Maze%20Restaurant%20%26%20Lounge!5e0!3m2!1sen!2snl!4v1778517867323!5m2!1sen!2snl"
   }
 ];
 
@@ -97,7 +97,7 @@ export default function BranchesPage() {
               <span className="font-mono text-accent text-xs tracking-widest uppercase mb-4 block">Branch Moments</span>
               <h2 className="font-serif text-5xl md:text-7xl">Through the eyes <br /> of our guests.</h2>
             </div>
-            <p className="max-w-md text-muted font-sans text-lg">A collection of moments captured by our visitors at Mbuya and Bugolobi Forest Mall.</p>
+            <p className="max-w-md text-muted font-sans text-lg">A collection of moments captured by our visitors at Mbuya and Lugogo Forest Mall.</p>
           </div>
 
           <div className="flex overflow-x-auto gap-4 pb-8 scrollbar-hide">

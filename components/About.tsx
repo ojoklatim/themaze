@@ -51,7 +51,7 @@ export default function About({ image = '/images/placeholder-about.jpg' }: About
               <span className="italic font-light text-muted">it&apos;s architecture.</span>
             </h2>
             <p className="font-sans text-muted text-lg leading-relaxed mb-10">
-              The Maze Bistro is a sanctuary of culinary craft. We believe in the precision of flavors, the elegance of presentation, and the soulful connection between plate and person. Our spaces in Mbuya and Bugolobi are designed to be stages for unforgettable moments.
+              The Maze Bistro is a sanctuary of culinary craft. We believe in the precision of flavors, the elegance of presentation, and the soulful connection between plate and person. Our spaces in Mbuya and Lugogo are designed to be stages for unforgettable moments.
             </p>
             
             <hr className="border-border-custom mb-10" />

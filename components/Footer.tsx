@@ -59,11 +59,11 @@ export default function Footer() {
             <p className="font-sans text-xs text-muted/60 uppercase tracking-tighter">Mon–Sun, 11 AM – 11 PM</p>
           </div>
 
-          {/* Bugolobi Branch */}
+          {/* Lugogo Branch */}
           <div>
-            <h4 className="font-mono text-xs tracking-widest uppercase text-text mb-8">Bugolobi Branch</h4>
+            <h4 className="font-mono text-xs tracking-widest uppercase text-text mb-8">Lugogo Branch</h4>
             <p className="font-sans text-sm text-muted leading-relaxed mb-4">
-              Forest Mall, Bugolobi<br />
+              Forest Mall, Lugogo<br />
               Kampala, Uganda
             </p>
             <p className="font-sans text-sm text-muted mb-4">+256 700 000000</p>

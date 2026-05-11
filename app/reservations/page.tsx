@@ -68,7 +68,7 @@ export default function ReservationsPage() {
                       <label className="font-mono text-[10px] tracking-widest uppercase text-muted">Branch</label>
                       <select className="w-full bg-transparent border-b border-border-custom py-3 focus:border-accent outline-none font-sans appearance-none transition-colors">
                         <option className="bg-surface">Mbuya</option>
-                        <option className="bg-surface">Bugolobi Forest Mall</option>
+                        <option className="bg-surface">Lugogo Forest Mall</option>
                       </select>
                     </div>
                     <div className="space-y-2">

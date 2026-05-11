@@ -22,7 +22,7 @@ const spaceMono = Space_Mono({
 
 export const metadata: Metadata = {
   title: "The Maze Bistro | Fine Dining in Kampala, Uganda",
-  description: "Experience modern high-end minimalist dining at The Maze Bistro. Located in Mbuya and Bugolobi Forest Mall, Kampala.",
+  description: "Experience modern high-end minimalist dining at The Maze Bistro. Located in Mbuya and Lugogo Forest Mall, Kampala.",
 };
 
 export default function RootLayout({

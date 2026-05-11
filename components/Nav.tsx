@@ -38,7 +38,7 @@ export default function Nav() {
         <div className="max-w-[1200px] mx-auto px-6 flex justify-between items-center">
           <Link href="/" className="group">
             <span className="font-serif text-2xl tracking-[0.2em] uppercase transition-colors duration-300 group-hover:text-accent">
-              THE MAZE BISTRO
+              THE MAZE
             </span>
           </Link>
 
@@ -85,7 +85,7 @@ export default function Nav() {
           >
             <div className="flex justify-between items-center mb-12">
               <span className="font-serif text-xl tracking-[0.2em] uppercase">
-                THE MAZE BISTRO
+                THE MAZE
               </span>
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
